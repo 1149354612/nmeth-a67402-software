@@ -1,0 +1,26 @@
+{
+  "subject": "145834",
+  "created_utc": "2026-07-02T07:51:00.728422+00:00",
+  "model_input": "prespecified_hcp_360_inputs\\sub-145834_bold_360.npy",
+  "model_input_sha256": "cb7070970c9954bd9e3794a0609b24e62db9ad60f22d6417f6af063895c7158d",
+  "source_files": [
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST1_LR\\rfMRI_REST1_LR_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii",
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST1_RL\\rfMRI_REST1_RL_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii",
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST2_LR\\rfMRI_REST2_LR_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii",
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST2_RL\\rfMRI_REST2_RL_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii",
+    "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\data-all\\HCP_S1200_Atlas\\HCP_S1200_Atlas_Z4_pkXDZ\\Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR.dlabel.nii"
+  ],
+  "source_file_sha256": {
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST1_LR\\rfMRI_REST1_LR_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii": "997325c3624fcc9f212703967cfc3649d336d97c6b44306a9e5f8d3ad6c3131b",
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST1_RL\\rfMRI_REST1_RL_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii": "fd8744ce92e4e152af7ab59d41ad8f3b1e2b197d43e6d8e258031f3e12d7982b",
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST2_LR\\rfMRI_REST2_LR_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii": "a894997e2ab3803cd1a69dc68df652bd1a11cea4777a3e5e0bd8cb1a76086b56",
+    "prespecified_hcp_minimal_dtseries\\145834\\MNINonLinear\\Results\\rfMRI_REST2_RL\\rfMRI_REST2_RL_Atlas_MSMAll_hp2000_clean_rclean_tclean.dtseries.nii": "d1563309b1293b3f473a0a00b15f57ba086b847e20633f587bbb238e15fc0b5b",
+    "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\data-all\\HCP_S1200_Atlas\\HCP_S1200_Atlas_Z4_pkXDZ\\Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR.dlabel.nii": "f3315dd22c10c64234a38dde923db05fafa2c137b3874bec9e49fee85edce9a6"
+  },
+  "processing_scripts": [
+    "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\prepare_prespecified_hcp_inputs.py",
+    "D:\\CONNECTOME\\workbench\\bin_windows64\\wb_command.exe -cifti-parcellate"
+  ],
+  "parcellation_method": "official_hcp_mmp1_360",
+  "notes": "Prepared for the prespecified traceable HCP evaluation. No 379-to-first-360-column truncation route was used."
+}

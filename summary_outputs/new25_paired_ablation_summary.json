@@ -1,0 +1,292 @@
+{
+  "summary_type": "new25_paired_ablation_summary",
+  "complete": true,
+  "interpretation": "Strictly paired ablation on the fixed-list traceable 25-subject HCP-YA batch. All conditions are HCP-derived post-configuration robustness analyses, not an external validation cohort.",
+  "n_subjects": 25,
+  "reference_config": "full_mgka_h60_fc05",
+  "conditions": [
+    "full_mgka_h60_fc05",
+    "dot_h60_fc05",
+    "mgka_h60_fc00",
+    "mgka_h30_fc05"
+  ],
+  "per_subject": [
+    {
+      "subject": "144933",
+      "full_mgka_h60_fc05": 0.789373,
+      "dot_h60_fc05": 0.748059,
+      "mgka_h60_fc00": 0.791086,
+      "mgka_h30_fc05": 0.856004
+    },
+    {
+      "subject": "145834",
+      "full_mgka_h60_fc05": 0.511635,
+      "dot_h60_fc05": 0.890795,
+      "mgka_h60_fc00": 0.874579,
+      "mgka_h30_fc05": 0.71177
+    },
+    {
+      "subject": "146129",
+      "full_mgka_h60_fc05": 0.907353,
+      "dot_h60_fc05": 0.826956,
+      "mgka_h60_fc00": 0.907002,
+      "mgka_h30_fc05": 0.924077
+    },
+    {
+      "subject": "146432",
+      "full_mgka_h60_fc05": 0.898264,
+      "dot_h60_fc05": 0.72607,
+      "mgka_h60_fc00": 0.896163,
+      "mgka_h30_fc05": 0.870254
+    },
+    {
+      "subject": "146533",
+      "full_mgka_h60_fc05": 0.905886,
+      "dot_h60_fc05": 0.572094,
+      "mgka_h60_fc00": 0.906014,
+      "mgka_h30_fc05": 0.905337
+    },
+    {
+      "subject": "300719",
+      "full_mgka_h60_fc05": 0.890448,
+      "dot_h60_fc05": 0.861167,
+      "mgka_h60_fc00": 0.890726,
+      "mgka_h30_fc05": 0.857735
+    },
+    {
+      "subject": "314225",
+      "full_mgka_h60_fc05": 0.878215,
+      "dot_h60_fc05": 0.762083,
+      "mgka_h60_fc00": 0.878946,
+      "mgka_h30_fc05": 0.81869
+    },
+    {
+      "subject": "325129",
+      "full_mgka_h60_fc05": 0.759833,
+      "dot_h60_fc05": 0.613154,
+      "mgka_h60_fc00": 0.757166,
+      "mgka_h30_fc05": 0.837321
+    },
+    {
+      "subject": "350330",
+      "full_mgka_h60_fc05": 0.83839,
+      "dot_h60_fc05": 0.726774,
+      "mgka_h60_fc00": 0.83794,
+      "mgka_h30_fc05": 0.809379
+    },
+    {
+      "subject": "360030",
+      "full_mgka_h60_fc05": 0.885804,
+      "dot_h60_fc05": 0.468998,
+      "mgka_h60_fc00": 0.886232,
+      "mgka_h30_fc05": 0.780544
+    },
+    {
+      "subject": "368753",
+      "full_mgka_h60_fc05": 0.906853,
+      "dot_h60_fc05": 0.873284,
+      "mgka_h60_fc00": 0.89739,
+      "mgka_h30_fc05": 0.891528
+    },
+    {
+      "subject": "376247",
+      "full_mgka_h60_fc05": 0.948442,
+      "dot_h60_fc05": 0.771403,
+      "mgka_h60_fc00": 0.948223,
+      "mgka_h30_fc05": 0.922071
+    },
+    {
+      "subject": "378756",
+      "full_mgka_h60_fc05": 0.849707,
+      "dot_h60_fc05": 0.781306,
+      "mgka_h60_fc00": 0.849324,
+      "mgka_h30_fc05": 0.83614
+    },
+    {
+      "subject": "392447",
+      "full_mgka_h60_fc05": 0.896988,
+      "dot_h60_fc05": 0.887883,
+      "mgka_h60_fc00": 0.896983,
+      "mgka_h30_fc05": 0.876431
+    },
+    {
+      "subject": "394956",
+      "full_mgka_h60_fc05": 0.903146,
+      "dot_h60_fc05": 0.778616,
+      "mgka_h60_fc00": 0.90078,
+      "mgka_h30_fc05": 0.909707
+    },
+    {
+      "subject": "413934",
+      "full_mgka_h60_fc05": 0.833339,
+      "dot_h60_fc05": 0.862493,
+      "mgka_h60_fc00": 0.834622,
+      "mgka_h30_fc05": 0.821198
+    },
+    {
+      "subject": "419239",
+      "full_mgka_h60_fc05": 0.891495,
+      "dot_h60_fc05": 0.883441,
+      "mgka_h60_fc00": 0.891996,
+      "mgka_h30_fc05": 0.884998
+    },
+    {
+      "subject": "421226",
+      "full_mgka_h60_fc05": 0.85391,
+      "dot_h60_fc05": 0.791267,
+      "mgka_h60_fc00": 0.816268,
+      "mgka_h30_fc05": 0.75988
+    },
+    {
+      "subject": "453542",
+      "full_mgka_h60_fc05": 0.86708,
+      "dot_h60_fc05": 0.857915,
+      "mgka_h60_fc00": 0.86703,
+      "mgka_h30_fc05": 0.771904
+    },
+    {
+      "subject": "454140",
+      "full_mgka_h60_fc05": 0.872862,
+      "dot_h60_fc05": 0.789861,
+      "mgka_h60_fc00": 0.863182,
+      "mgka_h30_fc05": 0.866767
+    },
+    {
+      "subject": "461743",
+      "full_mgka_h60_fc05": 0.861867,
+      "dot_h60_fc05": 0.801941,
+      "mgka_h60_fc00": 0.862699,
+      "mgka_h30_fc05": 0.881255
+    },
+    {
+      "subject": "463040",
+      "full_mgka_h60_fc05": 0.937795,
+      "dot_h60_fc05": 0.669879,
+      "mgka_h60_fc00": 0.937509,
+      "mgka_h30_fc05": 0.885521
+    },
+    {
+      "subject": "468050",
+      "full_mgka_h60_fc05": 0.819213,
+      "dot_h60_fc05": 0.709248,
+      "mgka_h60_fc00": 0.890448,
+      "mgka_h30_fc05": 0.722219
+    },
+    {
+      "subject": "510225",
+      "full_mgka_h60_fc05": 0.893638,
+      "dot_h60_fc05": 0.847814,
+      "mgka_h60_fc00": 0.893464,
+      "mgka_h30_fc05": 0.87644
+    },
+    {
+      "subject": "513130",
+      "full_mgka_h60_fc05": 0.892697,
+      "dot_h60_fc05": 0.817602,
+      "mgka_h60_fc00": 0.892811,
+      "mgka_h30_fc05": 0.873518
+    }
+  ],
+  "condition_summary": {
+    "full_mgka_h60_fc05": {
+      "n": 25,
+      "mean": 0.85976932,
+      "sd": 0.08411551243316143,
+      "sem": 0.016823102486632286,
+      "min": 0.511635,
+      "max": 0.948442
+    },
+    "dot_h60_fc05": {
+      "n": 25,
+      "mean": 0.77280412,
+      "sd": 0.1045797497456367,
+      "sem": 0.020915949949127342,
+      "min": 0.468998,
+      "max": 0.890795
+    },
+    "mgka_h60_fc00": {
+      "n": 25,
+      "mean": 0.87474332,
+      "sd": 0.04248464865269965,
+      "sem": 0.008496929730539931,
+      "min": 0.757166,
+      "max": 0.948223
+    },
+    "mgka_h30_fc05": {
+      "n": 25,
+      "mean": 0.84602752,
+      "sd": 0.05885480914867251,
+      "sem": 0.011770961829734503,
+      "min": 0.71177,
+      "max": 0.924077
+    }
+  },
+  "paired_comparisons": {
+    "dot_h60_fc05_vs_full_mgka_h60_fc05": {
+      "n": 25,
+      "mean_delta_condition_minus_full": -0.0869652,
+      "sd_delta_condition_minus_full": 0.14226205514530804,
+      "mean_delta_full_minus_condition": 0.0869652,
+      "sd_delta_full_minus_condition": 0.14226205514530804,
+      "delta_condition_minus_full_summary": {
+        "n": 25,
+        "mean": -0.0869652,
+        "sd": 0.14226205514530804,
+        "sem": 0.028452411029061608,
+        "min": -0.416806,
+        "max": 0.37916000000000005
+      },
+      "paired_t_statistic_condition_minus_full": -3.0565142585341105,
+      "paired_t_pvalue": 0.005423886852470267,
+      "paired_t_pvalue_bonferroni": 0.016271660557410802,
+      "wilcoxon_statistic": 28.0,
+      "wilcoxon_pvalue": 8.803606033325195e-05,
+      "wilcoxon_pvalue_bonferroni": 0.00026410818099975586,
+      "bonferroni_family_size": 3
+    },
+    "mgka_h60_fc00_vs_full_mgka_h60_fc05": {
+      "n": 25,
+      "mean_delta_condition_minus_full": 0.014974000000000008,
+      "sd_delta_condition_minus_full": 0.07439240952543479,
+      "mean_delta_full_minus_condition": -0.014974000000000008,
+      "sd_delta_full_minus_condition": 0.07439240952543479,
+      "delta_condition_minus_full_summary": {
+        "n": 25,
+        "mean": 0.014974000000000008,
+        "sd": 0.07439240952543479,
+        "sem": 0.014878481905086957,
+        "min": -0.03764199999999995,
+        "max": 0.36294400000000004
+      },
+      "paired_t_statistic_condition_minus_full": 1.0064198817811105,
+      "paired_t_pvalue": 0.3242534171918602,
+      "paired_t_pvalue_bonferroni": 0.9727602515755805,
+      "wilcoxon_statistic": 149.0,
+      "wilcoxon_pvalue": 0.7309892177581787,
+      "wilcoxon_pvalue_bonferroni": 1.0,
+      "bonferroni_family_size": 3
+    },
+    "mgka_h30_fc05_vs_full_mgka_h60_fc05": {
+      "n": 25,
+      "mean_delta_condition_minus_full": -0.0137418,
+      "sd_delta_condition_minus_full": 0.0633321816752747,
+      "mean_delta_full_minus_condition": 0.0137418,
+      "sd_delta_full_minus_condition": 0.0633321816752747,
+      "delta_condition_minus_full_summary": {
+        "n": 25,
+        "mean": -0.0137418,
+        "sd": 0.0633321816752747,
+        "sem": 0.01266643633505494,
+        "min": -0.10526000000000002,
+        "max": 0.20013500000000006
+      },
+      "paired_t_statistic_condition_minus_full": -1.084898675246876,
+      "paired_t_pvalue": 0.28874467524106817,
+      "paired_t_pvalue_bonferroni": 0.8662340257232045,
+      "wilcoxon_statistic": 87.0,
+      "wilcoxon_pvalue": 0.04215019941329956,
+      "wilcoxon_pvalue_bonferroni": 0.12645059823989868,
+      "bonferroni_family_size": 3
+    }
+  }
+}

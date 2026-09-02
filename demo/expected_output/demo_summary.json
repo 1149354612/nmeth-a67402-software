@@ -1,0 +1,16 @@
+{
+  "global_mean": 6.055569412166261e-11,
+  "global_std": 0.999999999640293,
+  "input_path": "reviewer_reproducibility_package_nature_methods_20260902\\demo_data\\demo_simulated_360_timeseries.npy",
+  "mean_absolute_offdiag_correlation": 0.208959141186511,
+  "n_regions": 360,
+  "n_timepoints": 240,
+  "output_files": [
+    "demo_summary.json",
+    "demo_region_summary.csv",
+    "demo_fc_preview.csv",
+    "demo_fc_preview.png"
+  ],
+  "preview_mean_absolute_upper_triangle": 0.22567810661495716,
+  "region_0_1_correlation": -0.22876143187558007
+}

@@ -1,0 +1,42 @@
+{
+  "purpose": "Data-driven held-out model analysis figure for manuscript revision.",
+  "source_rule": "Only validation_results/{subject}/reproduce_0866_{subject}/ fixed held-out outputs are used.",
+  "subjects": [
+    "106824",
+    "117021",
+    "123723",
+    "136631",
+    "151930",
+    "152225"
+  ],
+  "run_dirs": [
+    "validation_results\\106824\\reproduce_0866_106824",
+    "validation_results\\117021\\reproduce_0866_117021",
+    "validation_results\\123723\\reproduce_0866_123723",
+    "validation_results\\136631\\reproduce_0866_136631",
+    "validation_results\\151930\\reproduce_0866_151930",
+    "validation_results\\152225\\reproduce_0866_152225"
+  ],
+  "fc_r_by_subject": {
+    "106824": 0.83235,
+    "117021": 0.794428,
+    "123723": 0.816059,
+    "136631": 0.899251,
+    "151930": 0.83567,
+    "152225": 0.906868
+  },
+  "heldout_fc_mean": 0.8474376666666666,
+  "heldout_fc_population_sd_matches_summary_json": 0.04158795333854371,
+  "heldout_fc_sample_sd_from_six_values": 0.045557320327985346,
+  "sd_reporting_note": "The existing manuscript summary reports 0.042, which matches the population standard deviation of the six fc_r.txt values. The sample SD is 0.046; the figure labels only the six-subject mean to avoid adding a new SD convention.",
+  "representative_subject_rule": "subject whose FC reconstruction r is closest to the six-subject held-out mean",
+  "representative_subject": "151930",
+  "representative_subject_fc_r_file": 0.83567,
+  "representative_subject_recomputed_empirical_vs_model_fc_r": 0.8356699132070666,
+  "representative_subject_ec_distribution_panel": "Panel f shows the central 99% of off-diagonal EC values for the representative subject. It intentionally does not report EC-FC correlation because the manuscript correlation uses the fixed reproduce0866_fc_pc_comparison pipeline.",
+  "interpretation_boundary": "This is a descriptive model-analysis figure. It is not a training-loss curve, not external validation, and not biological ground truth.",
+  "outputs": {
+    "png": "figures\\figure2_heldout_model_analysis_reproduce0866.png",
+    "pdf": "figures\\figure2_heldout_model_analysis_reproduce0866.pdf"
+  }
+}

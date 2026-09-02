@@ -1,0 +1,11 @@
+{
+  "dataset_type": "simulated",
+  "purpose": "execution_checking_only",
+  "seed": 20260902,
+  "n_timepoints": 240,
+  "n_regions": 360,
+  "files": {
+    "timeseries": "demo_simulated_360_timeseries.npy",
+    "centroids": "demo_region_centroids.csv"
+  }
+}

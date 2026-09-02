@@ -1,0 +1,18 @@
+{
+  "figure": "Figure 1 framework overview",
+  "generated_at_local": "2026-07-05T20:34:16",
+  "generation_mode": "matplotlib_code_only",
+  "visual_style": "journal_minimal_code_only",
+  "layout_revision": "polished_v2",
+  "uses_ai_generated_components": false,
+  "ai_component_files_used": [],
+  "empirical_data_files_used": [],
+  "contains_empirical_result_panels": false,
+  "contains_schematic_matrix_only": true,
+  "source_data_boundary": "No subject-level result arrays are plotted in this schematic.",
+  "interpretation_boundary": "The figure illustrates the workflow, architecture, and perturbational inference rule. It does not display empirical performance values, CCEP effect sizes, or biological ground truth.",
+  "outputs": {
+    "png": "figures\\figure1_framework_overview.png",
+    "pdf": "figures\\figure1_framework_overview.pdf"
+  }
+}

@@ -1,0 +1,1512 @@
+{
+  "started_utc": "2026-07-03T04:59:37.219262+00:00",
+  "status_path": "new25_paired_ablation_plan\\batch_status.json",
+  "n_requested": 75,
+  "n_completed": 75,
+  "n_failed": 0,
+  "records": [
+    {
+      "index": 1,
+      "subject": "144933",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T04:59:37.220494+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\144933\\new25_ablation_dot_h60_fc05_144933_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_dot_h60_fc05_144933_s20251211\\config.json",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_dot_h60_fc05_144933_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_dot_h60_fc05_144933_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_dot_h60_fc05_144933_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\001_144933_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\001_144933_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 967.22,
+      "finished_utc": "2026-07-03T05:15:44.440841+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 2,
+      "subject": "144933",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T05:15:44.442127+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h60_fc00_144933_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h60_fc00_144933_s20251211\\config.json",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h60_fc00_144933_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h60_fc00_144933_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h60_fc00_144933_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\002_144933_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\002_144933_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1094.3,
+      "finished_utc": "2026-07-03T05:33:58.746723+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 3,
+      "subject": "144933",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T05:33:58.747993+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h30_fc05_144933_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h30_fc05_144933_s20251211\\config.json",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h30_fc05_144933_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h30_fc05_144933_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\144933\\new25_ablation_mgka_h30_fc05_144933_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\003_144933_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\003_144933_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 589.38,
+      "finished_utc": "2026-07-03T05:43:48.130567+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 4,
+      "subject": "145834",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T05:43:48.131745+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\145834\\new25_ablation_dot_h60_fc05_145834_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_dot_h60_fc05_145834_s20251211\\config.json",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_dot_h60_fc05_145834_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_dot_h60_fc05_145834_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_dot_h60_fc05_145834_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\004_145834_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\004_145834_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 966.96,
+      "finished_utc": "2026-07-03T05:59:55.089903+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 5,
+      "subject": "145834",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T05:59:55.091922+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h60_fc00_145834_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h60_fc00_145834_s20251211\\config.json",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h60_fc00_145834_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h60_fc00_145834_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h60_fc00_145834_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\005_145834_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\005_145834_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1034.28,
+      "finished_utc": "2026-07-03T06:17:09.372380+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 6,
+      "subject": "145834",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T06:17:09.373878+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h30_fc05_145834_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h30_fc05_145834_s20251211\\config.json",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h30_fc05_145834_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h30_fc05_145834_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\145834\\new25_ablation_mgka_h30_fc05_145834_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\006_145834_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\006_145834_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 675.11,
+      "finished_utc": "2026-07-03T06:28:24.487894+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 7,
+      "subject": "146129",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T06:28:24.490870+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146129\\new25_ablation_dot_h60_fc05_146129_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_dot_h60_fc05_146129_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_dot_h60_fc05_146129_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_dot_h60_fc05_146129_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_dot_h60_fc05_146129_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\007_146129_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\007_146129_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1163.2,
+      "finished_utc": "2026-07-03T06:47:47.691148+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 8,
+      "subject": "146129",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T06:47:47.693059+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h60_fc00_146129_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h60_fc00_146129_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h60_fc00_146129_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h60_fc00_146129_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h60_fc00_146129_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\008_146129_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\008_146129_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1071.66,
+      "finished_utc": "2026-07-03T07:05:39.352665+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 9,
+      "subject": "146129",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T07:05:39.354099+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h30_fc05_146129_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h30_fc05_146129_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h30_fc05_146129_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h30_fc05_146129_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146129\\new25_ablation_mgka_h30_fc05_146129_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\009_146129_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\009_146129_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 603.03,
+      "finished_utc": "2026-07-03T07:15:42.381307+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 10,
+      "subject": "146432",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T07:15:42.383006+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146432\\new25_ablation_dot_h60_fc05_146432_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_dot_h60_fc05_146432_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_dot_h60_fc05_146432_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_dot_h60_fc05_146432_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_dot_h60_fc05_146432_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\010_146432_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\010_146432_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1150.67,
+      "finished_utc": "2026-07-03T07:34:53.050710+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 11,
+      "subject": "146432",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T07:34:53.051918+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h60_fc00_146432_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h60_fc00_146432_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h60_fc00_146432_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h60_fc00_146432_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h60_fc00_146432_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\011_146432_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\011_146432_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1124.21,
+      "finished_utc": "2026-07-03T07:53:37.259549+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 12,
+      "subject": "146432",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T07:53:37.261006+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h30_fc05_146432_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h30_fc05_146432_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h30_fc05_146432_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h30_fc05_146432_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146432\\new25_ablation_mgka_h30_fc05_146432_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\012_146432_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\012_146432_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 636.34,
+      "finished_utc": "2026-07-03T08:04:13.597739+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 13,
+      "subject": "146533",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T08:04:13.599388+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146533\\new25_ablation_dot_h60_fc05_146533_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_dot_h60_fc05_146533_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_dot_h60_fc05_146533_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_dot_h60_fc05_146533_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_dot_h60_fc05_146533_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\013_146533_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\013_146533_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 890.61,
+      "finished_utc": "2026-07-03T08:19:04.206745+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 14,
+      "subject": "146533",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T08:19:04.208376+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h60_fc00_146533_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h60_fc00_146533_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h60_fc00_146533_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h60_fc00_146533_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h60_fc00_146533_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\014_146533_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\014_146533_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 999.51,
+      "finished_utc": "2026-07-03T08:35:43.722115+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 15,
+      "subject": "146533",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T08:35:43.723621+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h30_fc05_146533_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h30_fc05_146533_s20251211\\config.json",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h30_fc05_146533_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h30_fc05_146533_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\146533\\new25_ablation_mgka_h30_fc05_146533_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\015_146533_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\015_146533_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 560.13,
+      "finished_utc": "2026-07-03T08:45:03.854283+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 16,
+      "subject": "300719",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T08:45:03.855544+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\300719\\new25_ablation_dot_h60_fc05_300719_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_dot_h60_fc05_300719_s20251211\\config.json",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_dot_h60_fc05_300719_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_dot_h60_fc05_300719_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_dot_h60_fc05_300719_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\016_300719_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\016_300719_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1013.78,
+      "finished_utc": "2026-07-03T09:01:57.640369+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 17,
+      "subject": "300719",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T09:01:57.641839+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h60_fc00_300719_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h60_fc00_300719_s20251211\\config.json",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h60_fc00_300719_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h60_fc00_300719_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h60_fc00_300719_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\017_300719_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\017_300719_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1033.78,
+      "finished_utc": "2026-07-03T09:19:11.422971+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 18,
+      "subject": "300719",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T09:19:11.424425+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h30_fc05_300719_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h30_fc05_300719_s20251211\\config.json",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h30_fc05_300719_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h30_fc05_300719_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\300719\\new25_ablation_mgka_h30_fc05_300719_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\018_300719_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\018_300719_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 604.4,
+      "finished_utc": "2026-07-03T09:29:15.827098+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 19,
+      "subject": "314225",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T09:29:15.828408+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\314225\\new25_ablation_dot_h60_fc05_314225_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_dot_h60_fc05_314225_s20251211\\config.json",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_dot_h60_fc05_314225_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_dot_h60_fc05_314225_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_dot_h60_fc05_314225_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\019_314225_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\019_314225_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1072.94,
+      "finished_utc": "2026-07-03T09:47:08.771141+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 20,
+      "subject": "314225",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T09:47:08.773028+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h60_fc00_314225_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h60_fc00_314225_s20251211\\config.json",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h60_fc00_314225_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h60_fc00_314225_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h60_fc00_314225_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\020_314225_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\020_314225_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1005.64,
+      "finished_utc": "2026-07-03T10:03:54.414626+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 21,
+      "subject": "314225",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T10:03:54.416052+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h30_fc05_314225_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h30_fc05_314225_s20251211\\config.json",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h30_fc05_314225_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h30_fc05_314225_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\314225\\new25_ablation_mgka_h30_fc05_314225_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\021_314225_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\021_314225_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 646.17,
+      "finished_utc": "2026-07-03T10:14:40.583978+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 22,
+      "subject": "325129",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T10:14:40.585447+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\325129\\new25_ablation_dot_h60_fc05_325129_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_dot_h60_fc05_325129_s20251211\\config.json",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_dot_h60_fc05_325129_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_dot_h60_fc05_325129_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_dot_h60_fc05_325129_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\022_325129_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\022_325129_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1138.1,
+      "finished_utc": "2026-07-03T10:33:38.681585+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 23,
+      "subject": "325129",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T10:33:38.683336+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h60_fc00_325129_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h60_fc00_325129_s20251211\\config.json",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h60_fc00_325129_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h60_fc00_325129_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h60_fc00_325129_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\023_325129_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\023_325129_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1017.53,
+      "finished_utc": "2026-07-03T10:50:36.217204+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 24,
+      "subject": "325129",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T10:50:36.219410+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h30_fc05_325129_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h30_fc05_325129_s20251211\\config.json",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h30_fc05_325129_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h30_fc05_325129_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\325129\\new25_ablation_mgka_h30_fc05_325129_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\024_325129_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\024_325129_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 621.96,
+      "finished_utc": "2026-07-03T11:00:58.184209+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 25,
+      "subject": "350330",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T11:00:58.186234+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\350330\\new25_ablation_dot_h60_fc05_350330_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_dot_h60_fc05_350330_s20251211\\config.json",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_dot_h60_fc05_350330_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_dot_h60_fc05_350330_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_dot_h60_fc05_350330_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\025_350330_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\025_350330_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1085.86,
+      "finished_utc": "2026-07-03T11:19:04.045593+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 26,
+      "subject": "350330",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T11:19:04.049603+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h60_fc00_350330_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h60_fc00_350330_s20251211\\config.json",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h60_fc00_350330_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h60_fc00_350330_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h60_fc00_350330_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\026_350330_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\026_350330_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1141.75,
+      "finished_utc": "2026-07-03T11:38:05.797281+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 27,
+      "subject": "350330",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T11:38:05.798832+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h30_fc05_350330_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h30_fc05_350330_s20251211\\config.json",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h30_fc05_350330_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h30_fc05_350330_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\350330\\new25_ablation_mgka_h30_fc05_350330_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\027_350330_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\027_350330_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 580.83,
+      "finished_utc": "2026-07-03T11:47:46.628842+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 28,
+      "subject": "360030",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T11:47:46.630460+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\360030\\new25_ablation_dot_h60_fc05_360030_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_dot_h60_fc05_360030_s20251211\\config.json",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_dot_h60_fc05_360030_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_dot_h60_fc05_360030_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_dot_h60_fc05_360030_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\028_360030_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\028_360030_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1140.42,
+      "finished_utc": "2026-07-03T12:06:47.050857+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 29,
+      "subject": "360030",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T12:06:47.052647+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h60_fc00_360030_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h60_fc00_360030_s20251211\\config.json",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h60_fc00_360030_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h60_fc00_360030_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h60_fc00_360030_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\029_360030_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\029_360030_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1102.81,
+      "finished_utc": "2026-07-03T12:25:09.862216+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 30,
+      "subject": "360030",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T12:25:09.863740+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h30_fc05_360030_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h30_fc05_360030_s20251211\\config.json",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h30_fc05_360030_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h30_fc05_360030_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\360030\\new25_ablation_mgka_h30_fc05_360030_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\030_360030_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\030_360030_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 687.3,
+      "finished_utc": "2026-07-03T12:36:37.163998+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 31,
+      "subject": "368753",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T12:36:37.165432+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\368753\\new25_ablation_dot_h60_fc05_368753_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_dot_h60_fc05_368753_s20251211\\config.json",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_dot_h60_fc05_368753_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_dot_h60_fc05_368753_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_dot_h60_fc05_368753_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\031_368753_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\031_368753_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1157.12,
+      "finished_utc": "2026-07-03T12:55:54.290199+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 32,
+      "subject": "368753",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T12:55:54.292989+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h60_fc00_368753_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h60_fc00_368753_s20251211\\config.json",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h60_fc00_368753_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h60_fc00_368753_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h60_fc00_368753_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\032_368753_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\032_368753_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 3055.01,
+      "finished_utc": "2026-07-03T13:46:49.300239+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 33,
+      "subject": "368753",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T13:46:49.305037+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h30_fc05_368753_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h30_fc05_368753_s20251211\\config.json",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h30_fc05_368753_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h30_fc05_368753_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\368753\\new25_ablation_mgka_h30_fc05_368753_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\033_368753_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\033_368753_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 553.66,
+      "finished_utc": "2026-07-03T13:56:02.965134+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 34,
+      "subject": "376247",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T13:56:02.969493+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\376247\\new25_ablation_dot_h60_fc05_376247_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_dot_h60_fc05_376247_s20251211\\config.json",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_dot_h60_fc05_376247_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_dot_h60_fc05_376247_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_dot_h60_fc05_376247_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\034_376247_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\034_376247_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1011.09,
+      "finished_utc": "2026-07-03T14:12:54.061755+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 35,
+      "subject": "376247",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T14:12:54.063614+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h60_fc00_376247_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h60_fc00_376247_s20251211\\config.json",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h60_fc00_376247_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h60_fc00_376247_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h60_fc00_376247_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\035_376247_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\035_376247_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1059.8,
+      "finished_utc": "2026-07-03T14:30:33.863664+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 36,
+      "subject": "376247",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T14:30:33.865489+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h30_fc05_376247_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h30_fc05_376247_s20251211\\config.json",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h30_fc05_376247_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h30_fc05_376247_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\376247\\new25_ablation_mgka_h30_fc05_376247_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\036_376247_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\036_376247_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 544.0,
+      "finished_utc": "2026-07-03T14:39:37.862250+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 37,
+      "subject": "378756",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T14:39:37.864134+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\378756\\new25_ablation_dot_h60_fc05_378756_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_dot_h60_fc05_378756_s20251211\\config.json",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_dot_h60_fc05_378756_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_dot_h60_fc05_378756_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_dot_h60_fc05_378756_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\037_378756_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\037_378756_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 938.7,
+      "finished_utc": "2026-07-03T14:55:16.563741+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 38,
+      "subject": "378756",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T14:55:16.565409+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h60_fc00_378756_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h60_fc00_378756_s20251211\\config.json",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h60_fc00_378756_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h60_fc00_378756_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h60_fc00_378756_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\038_378756_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\038_378756_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1132.33,
+      "finished_utc": "2026-07-03T15:14:08.890867+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 39,
+      "subject": "378756",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T15:14:08.895220+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h30_fc05_378756_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h30_fc05_378756_s20251211\\config.json",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h30_fc05_378756_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h30_fc05_378756_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\378756\\new25_ablation_mgka_h30_fc05_378756_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\039_378756_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\039_378756_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 629.24,
+      "finished_utc": "2026-07-03T15:24:38.137065+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 40,
+      "subject": "392447",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T15:24:38.138873+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\392447\\new25_ablation_dot_h60_fc05_392447_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_dot_h60_fc05_392447_s20251211\\config.json",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_dot_h60_fc05_392447_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_dot_h60_fc05_392447_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_dot_h60_fc05_392447_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\040_392447_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\040_392447_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1004.15,
+      "finished_utc": "2026-07-03T15:41:22.290633+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 41,
+      "subject": "392447",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T15:41:22.292815+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h60_fc00_392447_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h60_fc00_392447_s20251211\\config.json",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h60_fc00_392447_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h60_fc00_392447_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h60_fc00_392447_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\041_392447_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\041_392447_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1116.84,
+      "finished_utc": "2026-07-03T15:59:59.130185+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 42,
+      "subject": "392447",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T15:59:59.131803+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h30_fc05_392447_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h30_fc05_392447_s20251211\\config.json",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h30_fc05_392447_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h30_fc05_392447_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\392447\\new25_ablation_mgka_h30_fc05_392447_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\042_392447_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\042_392447_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 595.76,
+      "finished_utc": "2026-07-03T16:09:54.890373+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 43,
+      "subject": "394956",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T16:09:54.892406+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\394956\\new25_ablation_dot_h60_fc05_394956_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_dot_h60_fc05_394956_s20251211\\config.json",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_dot_h60_fc05_394956_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_dot_h60_fc05_394956_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_dot_h60_fc05_394956_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\043_394956_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\043_394956_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1118.0,
+      "finished_utc": "2026-07-03T16:28:32.890153+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 44,
+      "subject": "394956",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T16:28:32.891720+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h60_fc00_394956_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h60_fc00_394956_s20251211\\config.json",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h60_fc00_394956_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h60_fc00_394956_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h60_fc00_394956_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\044_394956_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\044_394956_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 984.28,
+      "finished_utc": "2026-07-03T16:44:57.175861+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 45,
+      "subject": "394956",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T16:44:57.177558+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h30_fc05_394956_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h30_fc05_394956_s20251211\\config.json",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h30_fc05_394956_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h30_fc05_394956_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\394956\\new25_ablation_mgka_h30_fc05_394956_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\045_394956_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\045_394956_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 555.55,
+      "finished_utc": "2026-07-03T16:54:12.726227+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 46,
+      "subject": "413934",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T16:54:12.730833+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\413934\\new25_ablation_dot_h60_fc05_413934_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_dot_h60_fc05_413934_s20251211\\config.json",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_dot_h60_fc05_413934_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_dot_h60_fc05_413934_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_dot_h60_fc05_413934_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\046_413934_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\046_413934_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1056.02,
+      "finished_utc": "2026-07-03T17:11:48.754720+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 47,
+      "subject": "413934",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T17:11:48.756595+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h60_fc00_413934_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h60_fc00_413934_s20251211\\config.json",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h60_fc00_413934_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h60_fc00_413934_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h60_fc00_413934_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\047_413934_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\047_413934_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 993.88,
+      "finished_utc": "2026-07-03T17:28:22.638573+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 48,
+      "subject": "413934",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T17:28:22.640339+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h30_fc05_413934_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h30_fc05_413934_s20251211\\config.json",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h30_fc05_413934_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h30_fc05_413934_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\413934\\new25_ablation_mgka_h30_fc05_413934_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\048_413934_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\048_413934_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 558.32,
+      "finished_utc": "2026-07-03T17:37:40.963576+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 49,
+      "subject": "419239",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T17:37:40.967736+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\419239\\new25_ablation_dot_h60_fc05_419239_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_dot_h60_fc05_419239_s20251211\\config.json",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_dot_h60_fc05_419239_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_dot_h60_fc05_419239_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_dot_h60_fc05_419239_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\049_419239_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\049_419239_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 869.92,
+      "finished_utc": "2026-07-03T17:52:10.891084+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 50,
+      "subject": "419239",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T17:52:10.894961+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h60_fc00_419239_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h60_fc00_419239_s20251211\\config.json",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h60_fc00_419239_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h60_fc00_419239_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h60_fc00_419239_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\050_419239_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\050_419239_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 973.82,
+      "finished_utc": "2026-07-03T18:08:24.720088+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 51,
+      "subject": "419239",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T18:08:24.721645+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h30_fc05_419239_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h30_fc05_419239_s20251211\\config.json",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h30_fc05_419239_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h30_fc05_419239_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\419239\\new25_ablation_mgka_h30_fc05_419239_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\051_419239_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\051_419239_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 541.79,
+      "finished_utc": "2026-07-03T18:17:26.516302+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 52,
+      "subject": "421226",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T18:17:26.517866+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\421226\\new25_ablation_dot_h60_fc05_421226_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_dot_h60_fc05_421226_s20251211\\config.json",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_dot_h60_fc05_421226_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_dot_h60_fc05_421226_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_dot_h60_fc05_421226_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\052_421226_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\052_421226_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 871.8,
+      "finished_utc": "2026-07-03T18:31:58.326160+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 53,
+      "subject": "421226",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T18:31:58.330332+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h60_fc00_421226_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h60_fc00_421226_s20251211\\config.json",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h60_fc00_421226_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h60_fc00_421226_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h60_fc00_421226_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\053_421226_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\053_421226_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1078.6,
+      "finished_utc": "2026-07-03T18:49:56.934383+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 54,
+      "subject": "421226",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T18:49:56.936537+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h30_fc05_421226_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h30_fc05_421226_s20251211\\config.json",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h30_fc05_421226_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h30_fc05_421226_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\421226\\new25_ablation_mgka_h30_fc05_421226_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\054_421226_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\054_421226_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 556.24,
+      "finished_utc": "2026-07-03T18:59:13.176170+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 55,
+      "subject": "453542",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T18:59:13.199649+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\453542\\new25_ablation_dot_h60_fc05_453542_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_dot_h60_fc05_453542_s20251211\\config.json",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_dot_h60_fc05_453542_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_dot_h60_fc05_453542_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_dot_h60_fc05_453542_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\055_453542_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\055_453542_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1130.68,
+      "finished_utc": "2026-07-03T19:18:03.891874+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 56,
+      "subject": "453542",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T19:18:03.893377+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h60_fc00_453542_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h60_fc00_453542_s20251211\\config.json",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h60_fc00_453542_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h60_fc00_453542_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h60_fc00_453542_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\056_453542_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\056_453542_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1055.31,
+      "finished_utc": "2026-07-03T19:35:39.200866+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 57,
+      "subject": "453542",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T19:35:39.202921+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h30_fc05_453542_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h30_fc05_453542_s20251211\\config.json",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h30_fc05_453542_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h30_fc05_453542_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\453542\\new25_ablation_mgka_h30_fc05_453542_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\057_453542_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\057_453542_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 646.2,
+      "finished_utc": "2026-07-03T19:46:25.398581+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 58,
+      "subject": "454140",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T19:46:25.400421+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\454140\\new25_ablation_dot_h60_fc05_454140_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_dot_h60_fc05_454140_s20251211\\config.json",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_dot_h60_fc05_454140_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_dot_h60_fc05_454140_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_dot_h60_fc05_454140_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\058_454140_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\058_454140_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1102.17,
+      "finished_utc": "2026-07-03T20:04:47.571216+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 59,
+      "subject": "454140",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T20:04:47.573057+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h60_fc00_454140_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h60_fc00_454140_s20251211\\config.json",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h60_fc00_454140_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h60_fc00_454140_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h60_fc00_454140_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\059_454140_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\059_454140_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1026.83,
+      "finished_utc": "2026-07-03T20:21:54.401567+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 60,
+      "subject": "454140",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T20:21:54.403120+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h30_fc05_454140_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h30_fc05_454140_s20251211\\config.json",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h30_fc05_454140_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h30_fc05_454140_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\454140\\new25_ablation_mgka_h30_fc05_454140_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\060_454140_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\060_454140_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 566.55,
+      "finished_utc": "2026-07-03T20:31:20.948753+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 61,
+      "subject": "461743",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T20:31:20.950565+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\461743\\new25_ablation_dot_h60_fc05_461743_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_dot_h60_fc05_461743_s20251211\\config.json",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_dot_h60_fc05_461743_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_dot_h60_fc05_461743_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_dot_h60_fc05_461743_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\061_461743_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\061_461743_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 871.24,
+      "finished_utc": "2026-07-03T20:45:52.193038+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 62,
+      "subject": "461743",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T20:45:52.194929+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h60_fc00_461743_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h60_fc00_461743_s20251211\\config.json",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h60_fc00_461743_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h60_fc00_461743_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h60_fc00_461743_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\062_461743_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\062_461743_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 983.97,
+      "finished_utc": "2026-07-03T21:02:16.167498+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 63,
+      "subject": "461743",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T21:02:16.169471+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h30_fc05_461743_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h30_fc05_461743_s20251211\\config.json",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h30_fc05_461743_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h30_fc05_461743_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\461743\\new25_ablation_mgka_h30_fc05_461743_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\063_461743_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\063_461743_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 569.7,
+      "finished_utc": "2026-07-03T21:11:45.867018+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 64,
+      "subject": "463040",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T21:11:45.871580+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\463040\\new25_ablation_dot_h60_fc05_463040_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_dot_h60_fc05_463040_s20251211\\config.json",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_dot_h60_fc05_463040_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_dot_h60_fc05_463040_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_dot_h60_fc05_463040_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\064_463040_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\064_463040_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1206.86,
+      "finished_utc": "2026-07-03T21:31:52.733713+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 65,
+      "subject": "463040",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T21:31:52.735375+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h60_fc00_463040_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h60_fc00_463040_s20251211\\config.json",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h60_fc00_463040_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h60_fc00_463040_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h60_fc00_463040_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\065_463040_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\065_463040_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1037.83,
+      "finished_utc": "2026-07-03T21:49:10.564037+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 66,
+      "subject": "463040",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T21:49:10.565638+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h30_fc05_463040_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h30_fc05_463040_s20251211\\config.json",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h30_fc05_463040_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h30_fc05_463040_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\463040\\new25_ablation_mgka_h30_fc05_463040_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\066_463040_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\066_463040_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 625.79,
+      "finished_utc": "2026-07-03T21:59:36.351628+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 67,
+      "subject": "468050",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T21:59:36.354688+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\468050\\new25_ablation_dot_h60_fc05_468050_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_dot_h60_fc05_468050_s20251211\\config.json",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_dot_h60_fc05_468050_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_dot_h60_fc05_468050_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_dot_h60_fc05_468050_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\067_468050_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\067_468050_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 876.71,
+      "finished_utc": "2026-07-03T22:14:13.066097+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 68,
+      "subject": "468050",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T22:14:13.067937+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h60_fc00_468050_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h60_fc00_468050_s20251211\\config.json",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h60_fc00_468050_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h60_fc00_468050_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h60_fc00_468050_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\068_468050_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\068_468050_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1037.57,
+      "finished_utc": "2026-07-03T22:31:30.636842+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 69,
+      "subject": "468050",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T22:31:30.638823+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h30_fc05_468050_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h30_fc05_468050_s20251211\\config.json",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h30_fc05_468050_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h30_fc05_468050_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\468050\\new25_ablation_mgka_h30_fc05_468050_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\069_468050_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\069_468050_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 541.5,
+      "finished_utc": "2026-07-03T22:40:32.140308+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 70,
+      "subject": "510225",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T22:40:32.142325+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\510225\\new25_ablation_dot_h60_fc05_510225_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_dot_h60_fc05_510225_s20251211\\config.json",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_dot_h60_fc05_510225_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_dot_h60_fc05_510225_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_dot_h60_fc05_510225_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\070_510225_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\070_510225_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 905.0,
+      "finished_utc": "2026-07-03T22:55:37.139912+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 71,
+      "subject": "510225",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T22:55:37.141552+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h60_fc00_510225_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h60_fc00_510225_s20251211\\config.json",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h60_fc00_510225_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h60_fc00_510225_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h60_fc00_510225_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\071_510225_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\071_510225_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1032.66,
+      "finished_utc": "2026-07-03T23:12:49.803582+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 72,
+      "subject": "510225",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T23:12:49.805448+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h30_fc05_510225_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h30_fc05_510225_s20251211\\config.json",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h30_fc05_510225_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h30_fc05_510225_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\510225\\new25_ablation_mgka_h30_fc05_510225_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\072_510225_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\072_510225_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 616.16,
+      "finished_utc": "2026-07-03T23:23:05.968380+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 73,
+      "subject": "513130",
+      "config": "dot_h60_fc05",
+      "started_utc": "2026-07-03T23:23:05.970093+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\513130\\new25_ablation_dot_h60_fc05_513130_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_dot_h60_fc05_513130_s20251211\\config.json",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_dot_h60_fc05_513130_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_dot_h60_fc05_513130_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_dot_h60_fc05_513130_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\073_513130_dot_h60_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\073_513130_dot_h60_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 961.17,
+      "finished_utc": "2026-07-03T23:39:07.142325+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 74,
+      "subject": "513130",
+      "config": "mgka_h60_fc00",
+      "started_utc": "2026-07-03T23:39:07.144932+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h60_fc00_513130_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h60_fc00_513130_s20251211\\config.json",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h60_fc00_513130_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h60_fc00_513130_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h60_fc00_513130_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\074_513130_mgka_h60_fc00.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\074_513130_mgka_h60_fc00.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 1025.58,
+      "finished_utc": "2026-07-03T23:56:12.728505+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 75,
+      "subject": "513130",
+      "config": "mgka_h30_fc05",
+      "started_utc": "2026-07-03T23:56:12.730213+00:00",
+      "expected_key_outputs": [
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h30_fc05_513130_s20251211\\fc_r.txt",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h30_fc05_513130_s20251211\\config.json",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h30_fc05_513130_s20251211\\ec.npy",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h30_fc05_513130_s20251211\\training_history.csv",
+        "new25_paired_ablation_plan\\513130\\new25_ablation_mgka_h30_fc05_513130_s20251211\\training_summary.json"
+      ],
+      "stdout_log": "new25_paired_ablation_plan\\batch_logs\\075_513130_mgka_h30_fc05.stdout.log",
+      "stderr_log": "new25_paired_ablation_plan\\batch_logs\\075_513130_mgka_h30_fc05.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 541.58,
+      "finished_utc": "2026-07-04T00:05:14.312227+00:00",
+      "key_outputs_exist": true
+    }
+  ],
+  "interpretation_boundary": "These are execution records only. Ablation effects are not manuscript results until all planned cells complete and paired statistics are computed.",
+  "finished_utc": "2026-07-04T00:05:14.314443+00:00",
+  "completed_all_requested_cells": true
+}

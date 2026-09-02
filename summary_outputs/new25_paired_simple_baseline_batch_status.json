@@ -1,0 +1,512 @@
+{
+  "started_utc": "2026-07-06T09:11:53.063945+00:00",
+  "status_path": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_status.json",
+  "n_requested": 25,
+  "n_completed": 25,
+  "n_failed": 0,
+  "records": [
+    {
+      "index": 1,
+      "subject": "144933",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:11:53.065028+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\144933\\new25_baseline_ridge_ar1_h60_144933_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\144933\\new25_baseline_ridge_ar1_h60_144933_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\144933\\new25_baseline_ridge_ar1_h60_144933_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\144933\\new25_baseline_ridge_ar1_h60_144933_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\144933\\new25_baseline_ridge_ar1_h60_144933_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\001_144933_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\001_144933_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": true,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "finished_utc": "2026-07-06T09:11:53.065194+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 2,
+      "subject": "145834",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:11:53.066016+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\145834\\new25_baseline_ridge_ar1_h60_145834_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\145834\\new25_baseline_ridge_ar1_h60_145834_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\145834\\new25_baseline_ridge_ar1_h60_145834_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\145834\\new25_baseline_ridge_ar1_h60_145834_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\145834\\new25_baseline_ridge_ar1_h60_145834_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\002_145834_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\002_145834_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.67,
+      "finished_utc": "2026-07-06T09:11:59.735462+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 3,
+      "subject": "146129",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:11:59.736641+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146129\\new25_baseline_ridge_ar1_h60_146129_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146129\\new25_baseline_ridge_ar1_h60_146129_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146129\\new25_baseline_ridge_ar1_h60_146129_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146129\\new25_baseline_ridge_ar1_h60_146129_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146129\\new25_baseline_ridge_ar1_h60_146129_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\003_146129_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\003_146129_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.53,
+      "finished_utc": "2026-07-06T09:12:06.268362+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 4,
+      "subject": "146432",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:06.269641+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146432\\new25_baseline_ridge_ar1_h60_146432_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146432\\new25_baseline_ridge_ar1_h60_146432_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146432\\new25_baseline_ridge_ar1_h60_146432_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146432\\new25_baseline_ridge_ar1_h60_146432_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146432\\new25_baseline_ridge_ar1_h60_146432_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\004_146432_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\004_146432_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.61,
+      "finished_utc": "2026-07-06T09:12:12.878236+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 5,
+      "subject": "146533",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:12.879432+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146533\\new25_baseline_ridge_ar1_h60_146533_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146533\\new25_baseline_ridge_ar1_h60_146533_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146533\\new25_baseline_ridge_ar1_h60_146533_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146533\\new25_baseline_ridge_ar1_h60_146533_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\146533\\new25_baseline_ridge_ar1_h60_146533_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\005_146533_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\005_146533_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.63,
+      "finished_utc": "2026-07-06T09:12:19.508256+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 6,
+      "subject": "300719",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:19.509660+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\300719\\new25_baseline_ridge_ar1_h60_300719_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\300719\\new25_baseline_ridge_ar1_h60_300719_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\300719\\new25_baseline_ridge_ar1_h60_300719_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\300719\\new25_baseline_ridge_ar1_h60_300719_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\300719\\new25_baseline_ridge_ar1_h60_300719_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\006_300719_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\006_300719_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.76,
+      "finished_utc": "2026-07-06T09:12:26.274616+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 7,
+      "subject": "314225",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:26.276075+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\314225\\new25_baseline_ridge_ar1_h60_314225_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\314225\\new25_baseline_ridge_ar1_h60_314225_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\314225\\new25_baseline_ridge_ar1_h60_314225_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\314225\\new25_baseline_ridge_ar1_h60_314225_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\314225\\new25_baseline_ridge_ar1_h60_314225_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\007_314225_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\007_314225_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.53,
+      "finished_utc": "2026-07-06T09:12:32.810141+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 8,
+      "subject": "325129",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:32.811337+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\325129\\new25_baseline_ridge_ar1_h60_325129_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\325129\\new25_baseline_ridge_ar1_h60_325129_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\325129\\new25_baseline_ridge_ar1_h60_325129_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\325129\\new25_baseline_ridge_ar1_h60_325129_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\325129\\new25_baseline_ridge_ar1_h60_325129_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\008_325129_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\008_325129_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.49,
+      "finished_utc": "2026-07-06T09:12:39.297659+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 9,
+      "subject": "350330",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:39.298990+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\350330\\new25_baseline_ridge_ar1_h60_350330_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\350330\\new25_baseline_ridge_ar1_h60_350330_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\350330\\new25_baseline_ridge_ar1_h60_350330_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\350330\\new25_baseline_ridge_ar1_h60_350330_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\350330\\new25_baseline_ridge_ar1_h60_350330_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\009_350330_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\009_350330_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.58,
+      "finished_utc": "2026-07-06T09:12:45.874268+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 10,
+      "subject": "360030",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:45.876222+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\360030\\new25_baseline_ridge_ar1_h60_360030_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\360030\\new25_baseline_ridge_ar1_h60_360030_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\360030\\new25_baseline_ridge_ar1_h60_360030_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\360030\\new25_baseline_ridge_ar1_h60_360030_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\360030\\new25_baseline_ridge_ar1_h60_360030_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\010_360030_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\010_360030_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.78,
+      "finished_utc": "2026-07-06T09:12:52.651500+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 11,
+      "subject": "368753",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:52.652690+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\368753\\new25_baseline_ridge_ar1_h60_368753_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\368753\\new25_baseline_ridge_ar1_h60_368753_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\368753\\new25_baseline_ridge_ar1_h60_368753_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\368753\\new25_baseline_ridge_ar1_h60_368753_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\368753\\new25_baseline_ridge_ar1_h60_368753_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\011_368753_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\011_368753_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.41,
+      "finished_utc": "2026-07-06T09:12:59.063218+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 12,
+      "subject": "376247",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:12:59.064461+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\376247\\new25_baseline_ridge_ar1_h60_376247_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\376247\\new25_baseline_ridge_ar1_h60_376247_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\376247\\new25_baseline_ridge_ar1_h60_376247_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\376247\\new25_baseline_ridge_ar1_h60_376247_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\376247\\new25_baseline_ridge_ar1_h60_376247_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\012_376247_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\012_376247_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.35,
+      "finished_utc": "2026-07-06T09:13:05.411214+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 13,
+      "subject": "378756",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:05.412554+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\378756\\new25_baseline_ridge_ar1_h60_378756_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\378756\\new25_baseline_ridge_ar1_h60_378756_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\378756\\new25_baseline_ridge_ar1_h60_378756_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\378756\\new25_baseline_ridge_ar1_h60_378756_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\378756\\new25_baseline_ridge_ar1_h60_378756_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\013_378756_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\013_378756_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.45,
+      "finished_utc": "2026-07-06T09:13:11.859375+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 14,
+      "subject": "392447",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:11.860742+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\392447\\new25_baseline_ridge_ar1_h60_392447_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\392447\\new25_baseline_ridge_ar1_h60_392447_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\392447\\new25_baseline_ridge_ar1_h60_392447_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\392447\\new25_baseline_ridge_ar1_h60_392447_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\392447\\new25_baseline_ridge_ar1_h60_392447_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\014_392447_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\014_392447_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.54,
+      "finished_utc": "2026-07-06T09:13:18.399319+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 15,
+      "subject": "394956",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:18.400651+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\394956\\new25_baseline_ridge_ar1_h60_394956_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\394956\\new25_baseline_ridge_ar1_h60_394956_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\394956\\new25_baseline_ridge_ar1_h60_394956_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\394956\\new25_baseline_ridge_ar1_h60_394956_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\394956\\new25_baseline_ridge_ar1_h60_394956_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\015_394956_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\015_394956_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.6,
+      "finished_utc": "2026-07-06T09:13:25.003394+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 16,
+      "subject": "413934",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:25.004801+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\413934\\new25_baseline_ridge_ar1_h60_413934_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\413934\\new25_baseline_ridge_ar1_h60_413934_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\413934\\new25_baseline_ridge_ar1_h60_413934_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\413934\\new25_baseline_ridge_ar1_h60_413934_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\413934\\new25_baseline_ridge_ar1_h60_413934_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\016_413934_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\016_413934_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.47,
+      "finished_utc": "2026-07-06T09:13:31.470354+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 17,
+      "subject": "419239",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:31.471861+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\419239\\new25_baseline_ridge_ar1_h60_419239_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\419239\\new25_baseline_ridge_ar1_h60_419239_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\419239\\new25_baseline_ridge_ar1_h60_419239_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\419239\\new25_baseline_ridge_ar1_h60_419239_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\419239\\new25_baseline_ridge_ar1_h60_419239_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\017_419239_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\017_419239_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.4,
+      "finished_utc": "2026-07-06T09:13:37.873156+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 18,
+      "subject": "421226",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:37.874545+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\421226\\new25_baseline_ridge_ar1_h60_421226_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\421226\\new25_baseline_ridge_ar1_h60_421226_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\421226\\new25_baseline_ridge_ar1_h60_421226_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\421226\\new25_baseline_ridge_ar1_h60_421226_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\421226\\new25_baseline_ridge_ar1_h60_421226_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\018_421226_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\018_421226_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.33,
+      "finished_utc": "2026-07-06T09:13:44.204686+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 19,
+      "subject": "453542",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:44.205972+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\453542\\new25_baseline_ridge_ar1_h60_453542_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\453542\\new25_baseline_ridge_ar1_h60_453542_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\453542\\new25_baseline_ridge_ar1_h60_453542_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\453542\\new25_baseline_ridge_ar1_h60_453542_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\453542\\new25_baseline_ridge_ar1_h60_453542_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\019_453542_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\019_453542_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.62,
+      "finished_utc": "2026-07-06T09:13:50.822850+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 20,
+      "subject": "454140",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:50.824480+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\454140\\new25_baseline_ridge_ar1_h60_454140_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\454140\\new25_baseline_ridge_ar1_h60_454140_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\454140\\new25_baseline_ridge_ar1_h60_454140_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\454140\\new25_baseline_ridge_ar1_h60_454140_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\454140\\new25_baseline_ridge_ar1_h60_454140_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\020_454140_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\020_454140_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.58,
+      "finished_utc": "2026-07-06T09:13:57.402687+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 21,
+      "subject": "461743",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:13:57.404007+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\461743\\new25_baseline_ridge_ar1_h60_461743_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\461743\\new25_baseline_ridge_ar1_h60_461743_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\461743\\new25_baseline_ridge_ar1_h60_461743_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\461743\\new25_baseline_ridge_ar1_h60_461743_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\461743\\new25_baseline_ridge_ar1_h60_461743_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\021_461743_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\021_461743_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.74,
+      "finished_utc": "2026-07-06T09:14:04.146605+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 22,
+      "subject": "463040",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:14:04.147913+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\463040\\new25_baseline_ridge_ar1_h60_463040_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\463040\\new25_baseline_ridge_ar1_h60_463040_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\463040\\new25_baseline_ridge_ar1_h60_463040_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\463040\\new25_baseline_ridge_ar1_h60_463040_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\463040\\new25_baseline_ridge_ar1_h60_463040_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\022_463040_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\022_463040_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.74,
+      "finished_utc": "2026-07-06T09:14:10.883859+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 23,
+      "subject": "468050",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:14:10.885219+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\468050\\new25_baseline_ridge_ar1_h60_468050_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\468050\\new25_baseline_ridge_ar1_h60_468050_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\468050\\new25_baseline_ridge_ar1_h60_468050_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\468050\\new25_baseline_ridge_ar1_h60_468050_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\468050\\new25_baseline_ridge_ar1_h60_468050_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\023_468050_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\023_468050_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.65,
+      "finished_utc": "2026-07-06T09:14:17.535444+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 24,
+      "subject": "510225",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:14:17.536887+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\510225\\new25_baseline_ridge_ar1_h60_510225_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\510225\\new25_baseline_ridge_ar1_h60_510225_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\510225\\new25_baseline_ridge_ar1_h60_510225_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\510225\\new25_baseline_ridge_ar1_h60_510225_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\510225\\new25_baseline_ridge_ar1_h60_510225_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\024_510225_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\024_510225_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.49,
+      "finished_utc": "2026-07-06T09:14:24.031663+00:00",
+      "key_outputs_exist": true
+    },
+    {
+      "index": 25,
+      "subject": "513130",
+      "baseline_name": "ridge_ar1_h60",
+      "started_utc": "2026-07-06T09:14:24.033100+00:00",
+      "expected_key_outputs": [
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\513130\\new25_baseline_ridge_ar1_h60_513130_s20251211\\fc_r.txt",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\513130\\new25_baseline_ridge_ar1_h60_513130_s20251211\\config.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\513130\\new25_baseline_ridge_ar1_h60_513130_s20251211\\training_summary.json",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\513130\\new25_baseline_ridge_ar1_h60_513130_s20251211\\empirical_fc.npy",
+        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\513130\\new25_baseline_ridge_ar1_h60_513130_s20251211\\model_fc.npy"
+      ],
+      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\025_513130_ridge_ar1_h60.stdout.log",
+      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_paired_simple_baseline\\batch_logs\\025_513130_ridge_ar1_h60.stderr.log",
+      "skipped_existing_outputs": false,
+      "returncode": 0,
+      "elapsed_seconds": 6.62,
+      "finished_utc": "2026-07-06T09:14:30.655271+00:00",
+      "key_outputs_exist": true
+    }
+  ],
+  "interpretation_boundary": "Execution records for a paired FC reconstruction baseline; not external validation.",
+  "finished_utc": "2026-07-06T09:14:30.656831+00:00",
+  "completed_all_requested_cells": true
+}

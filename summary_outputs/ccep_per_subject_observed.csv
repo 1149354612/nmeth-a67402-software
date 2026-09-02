@@ -1,0 +1,7 @@
+subject_id,ec_path,primary_metric,primary_transform,pearson_r,n_edges_used
+106824,validation_results\106824\reproduce_0866_106824\ec.npy,amplitude,abs_ec_align_ccep,0.02515673479768946,20807
+117021,validation_results\117021\reproduce_0866_117021\ec.npy,amplitude,abs_ec_align_ccep,0.03438773603982108,20807
+123723,validation_results\123723\reproduce_0866_123723\ec.npy,amplitude,abs_ec_align_ccep,0.03704972774497723,20807
+136631,validation_results\136631\reproduce_0866_136631\ec.npy,amplitude,abs_ec_align_ccep,0.03434475496733743,20807
+151930,validation_results\151930\reproduce_0866_151930\ec.npy,amplitude,abs_ec_align_ccep,0.04000090647432546,20807
+152225,validation_results\152225\reproduce_0866_152225\ec.npy,amplitude,abs_ec_align_ccep,0.02203191704326341,20807

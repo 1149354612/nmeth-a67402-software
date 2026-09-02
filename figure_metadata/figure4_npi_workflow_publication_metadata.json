@@ -1,0 +1,19 @@
+{
+  "figure": "Supplementary Fig. S2 NPI workflow",
+  "created_utc": "2026-07-07T09:24:36Z",
+  "generation_mode": "matplotlib_code_only",
+  "uses_ai_generated_components": false,
+  "contains_empirical_result_panels": false,
+  "contains_schematic_matrix_only": true,
+  "ec_direction_convention": "columns are perturbed source regions i; rows are target response regions j",
+  "source_data_boundary": "No subject-level empirical EC result arrays are plotted in this schematic.",
+  "outputs": {
+    "png": "figures\\figure4_npi_workflow_publication.png",
+    "pdf": "figures\\figure4_npi_workflow_publication.pdf"
+  },
+  "notes": [
+    "The figure explains the NPI workflow and EC assembly convention.",
+    "The matrix, response bars, and network nodes are deterministic schematic graphics.",
+    "No HCP subject-level EC result arrays are read by this script."
+  ]
+}

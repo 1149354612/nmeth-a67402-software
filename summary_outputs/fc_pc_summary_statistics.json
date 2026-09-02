@@ -1,0 +1,26 @@
+{
+  "Partial correlation vs Pearson FC": {
+    "n_subjects": 6,
+    "pearson_r_mean": 0.13760852220785955,
+    "pearson_r_std": 0.0191937211945419,
+    "spearman_r_mean": 0.13186956337528447,
+    "spearman_r_std": 0.018533129115641707,
+    "n_pairs_per_subject": 129240
+  },
+  "Perturbational EC vs Pearson FC": {
+    "n_subjects": 6,
+    "pearson_r_mean": 0.026698326194718094,
+    "pearson_r_std": 0.006686185787304774,
+    "spearman_r_mean": 0.02517063113529344,
+    "spearman_r_std": 0.0066304849063578575,
+    "n_pairs_per_subject": 129240
+  },
+  "Perturbational EC vs partial correlation": {
+    "n_subjects": 6,
+    "pearson_r_mean": 0.2330718364498884,
+    "pearson_r_std": 0.033715940643983255,
+    "spearman_r_mean": 0.176932479746019,
+    "spearman_r_std": 0.026905163302233564,
+    "n_pairs_per_subject": 129240
+  }
+}

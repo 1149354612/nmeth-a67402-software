@@ -1,0 +1,61 @@
+{
+  "figure": "Figure 5 evidence summary",
+  "style_version": "compact_single_panel_v4",
+  "display_role": "contextual_summary",
+  "purpose": "Low-prominence main-text context panel summarizing the manuscript's primary reconstruction result, cross-subject generalization gap, and fixed CCEP correspondence.",
+  "interpretation_boundary": "This figure summarizes current manuscript evidence without adding new analyses or changing values.",
+  "records": [
+    {
+      "key": "heldout_fc",
+      "label": "Within-subject\nheld-out FC",
+      "short_label": "Held-out FC",
+      "mean_r": 0.8474376666666666,
+      "sd_r": 0.04158795333854371,
+      "ci_95": [
+        0.8037937862428677,
+        0.8910815470904656
+      ],
+      "n": 6,
+      "unit": "subjects",
+      "role": "Primary within-subject reconstruction",
+      "limitation": "Small fixed held-out set; subject-specific interpretation.",
+      "source": "natneurosci_submission/supplementary_analyses/fc_correlation_results/fc_correlation_summary.json"
+    },
+    {
+      "key": "simplified_loso_fc",
+      "label": "Cross-subject\nLOSO FC",
+      "short_label": "LOSO FC",
+      "mean_r": 0.1106460776672747,
+      "sd_r": 0.06719603181316919,
+      "ci_95": [
+        0.04012816702295058,
+        0.18116398831159883
+      ],
+      "n": 6,
+      "unit": "folds",
+      "role": "Simplified cross-subject feasibility",
+      "limitation": "Memory-limited LOSO estimate; not final fixed-configuration cross-subject performance.",
+      "source": "natneurosci_submission/supplementary_analyses/loocv_results/summary.json"
+    },
+    {
+      "key": "fixed_ccep",
+      "label": "Fixed CCEP\ncomparison",
+      "short_label": "CCEP",
+      "mean_r": 0.032161962844569014,
+      "sd_r": 0.007024940976911071,
+      "ci_95": [
+        0.02478996617220887,
+        0.03953302340061155
+      ],
+      "n": 6,
+      "unit": "held-out model subjects",
+      "role": "External correspondence context",
+      "limitation": "Fixed post-exploratory comparison with low effect size; not definitive external validation.",
+      "source": "reproduce0866_ccep_fixed_pipeline/summary_statistics.json"
+    }
+  ],
+  "outputs": {
+    "png": "figures/figure5_evidence_summary.png",
+    "pdf": "figures/figure5_evidence_summary.pdf"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "generated_at_local": "2026-06-17T19:04:28",
+  "purpose": "Data-driven descriptive visualization of model-implied perturbational EC.",
+  "manuscript_status": "Descriptive visualization only; not biological ground truth and not primary CCEP validation.",
+  "subjects": [
+    "106824",
+    "117021",
+    "123723",
+    "136631",
+    "151930",
+    "152225"
+  ],
+  "input_files": [
+    "validation_results\\106824\\reproduce_0866_106824\\ec.npy",
+    "validation_results\\117021\\reproduce_0866_117021\\ec.npy",
+    "validation_results\\123723\\reproduce_0866_123723\\ec.npy",
+    "validation_results\\136631\\reproduce_0866_136631\\ec.npy",
+    "validation_results\\151930\\reproduce_0866_151930\\ec.npy",
+    "validation_results\\152225\\reproduce_0866_152225\\ec.npy"
+  ],
+  "matrix_shape": [
+    6,
+    360,
+    360
+  ],
+  "representative_selection_rule": "Held-out subject whose FC reconstruction r is closest to the six-subject mean.",
+  "representative_subject": "151930",
+  "fc_r_by_subject": {
+    "106824": 0.83235,
+    "117021": 0.794428,
+    "123723": 0.816059,
+    "136631": 0.899251,
+    "151930": 0.83567,
+    "152225": 0.906868
+  },
+  "mean_fc_r": 0.8474376666666666,
+  "ec_color_limit_abs_p98": 0.6168247541785239,
+  "asymmetry_color_limit_abs_p98": 0.6174252328152458,
+  "diagonal_handling": "Diagonal entries were set to NaN for plotting only.",
+  "config_checked_by_subject": {
+    "106824": {
+      "attn": "mgka",
+      "horizon": 60,
+      "fc_loss_weight": 0.5,
+      "run_tag": "reproduce_0866_106824"
+    },
+    "117021": {
+      "attn": "mgka",
+      "horizon": 60,
+      "fc_loss_weight": 0.5,
+      "run_tag": "reproduce_0866_117021"
+    },
+    "123723": {
+      "attn": "mgka",
+      "horizon": 60,
+      "fc_loss_weight": 0.5,
+      "run_tag": "reproduce_0866_123723"
+    },
+    "136631": {
+      "attn": "mgka",
+      "horizon": 60,
+      "fc_loss_weight": 0.5,
+      "run_tag": "reproduce_0866_136631"
+    },
+    "151930": {
+      "attn": "mgka",
+      "horizon": 60,
+      "fc_loss_weight": 0.5,
+      "run_tag": "reproduce_0866_151930"
+    },
+    "152225": {
+      "attn": "mgka",
+      "horizon": 60,
+      "fc_loss_weight": 0.5,
+      "run_tag": "reproduce_0866_152225"
+    }
+  },
+  "outputs": {
+    "png": "figures\\figure6_ec_heatmap_reproduce0866.png",
+    "pdf": "figures\\figure6_ec_heatmap_reproduce0866.pdf",
+    "metadata": "figures\\figure6_ec_heatmap_reproduce0866_metadata.json"
+  }
+}

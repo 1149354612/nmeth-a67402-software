@@ -1,0 +1,89 @@
+{
+  "summary_type": "reproduce0866_ccep_null_controls",
+  "created_utc": "2026-06-22T06:34:28.663669+00:00",
+  "interpretation_policy": "Null controls for the fixed post-exploratory CCEP comparison. These controls evaluate label/edge specificity of the already low amplitude-based correspondence and do not convert CCEP into primary biological validation.",
+  "inputs": {
+    "ec_source": "validation_results/{subject}/reproduce_0866_{subject}/ec.npy",
+    "ccep_source": "data-all\\CCEP(F-TRACT)\\MNI-HCP-MMP1\\amplitude__median.txt.gz",
+    "subjects": [
+      "106824",
+      "117021",
+      "123723",
+      "136631",
+      "151930",
+      "152225"
+    ],
+    "transform": "abs_ec_align_ccep",
+    "mask": "finite directed off-diagonal region pairs",
+    "n_permutations": 1000,
+    "random_seed": 20260622
+  },
+  "observed": {
+    "n_subjects": 6,
+    "mean_r": 0.032161962844569014,
+    "sd_r": 0.007024940976911071,
+    "per_subject_r": {
+      "106824": 0.02515673479768946,
+      "117021": 0.03438773603982108,
+      "123723": 0.03704972774497723,
+      "136631": 0.03434475496733743,
+      "151930": 0.04000090647432546,
+      "152225": 0.02203191704326341
+    }
+  },
+  "group_nulls": {
+    "edge_value_permutation": {
+      "n": 1000,
+      "mean": -0.00011111793744762769,
+      "sd": 0.004389620279981563,
+      "median": -0.00027425420384319507,
+      "p025": -0.008509709863519179,
+      "p975": 0.008692177381591892,
+      "min": -0.012761074476981429,
+      "max": 0.013272627982209793,
+      "empirical_p_two_sided": 0.000999000999000999
+    },
+    "synchronous_region_label_permutation": {
+      "n": 1000,
+      "mean": -0.00023959444888070145,
+      "sd": 0.004674572332346514,
+      "median": -0.0002754998854058891,
+      "p025": -0.009114089427197058,
+      "p975": 0.008891578661541165,
+      "min": -0.01163204533687706,
+      "max": 0.014882172350845263,
+      "empirical_p_two_sided": 0.000999000999000999
+    }
+  },
+  "subject_null_mean_summaries": {
+    "edge_value_permutation_means": {
+      "n": 6,
+      "mean": 0.0001450915084287974,
+      "sd": 0.00023006140479709988,
+      "median": 0.00017162390227489578,
+      "p025": -0.00017381733526925373,
+      "p975": 0.00040641266772972555,
+      "min": -0.00019255476593689673,
+      "max": 0.00041479833488036033
+    },
+    "synchronous_region_label_permutation_means": {
+      "n": 6,
+      "mean": -6.188570517340159e-05,
+      "sd": 0.00023361999001294065,
+      "median": -6.481518810417325e-05,
+      "p025": -0.00030424727220885024,
+      "p975": 0.00024236574420048658,
+      "min": -0.0003045514761678296,
+      "max": 0.00026232341462868855
+    }
+  },
+  "ec_paths": {
+    "106824": "validation_results\\106824\\reproduce_0866_106824\\ec.npy",
+    "117021": "validation_results\\117021\\reproduce_0866_117021\\ec.npy",
+    "123723": "validation_results\\123723\\reproduce_0866_123723\\ec.npy",
+    "136631": "validation_results\\136631\\reproduce_0866_136631\\ec.npy",
+    "151930": "validation_results\\151930\\reproduce_0866_151930\\ec.npy",
+    "152225": "validation_results\\152225\\reproduce_0866_152225\\ec.npy"
+  },
+  "all_ec_paths_contain_reproduce_0866": true
+}

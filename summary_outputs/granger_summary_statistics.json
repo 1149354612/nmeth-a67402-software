@@ -1,0 +1,10 @@
+{
+  "Perturbational EC vs pairwise lag-1 Granger": {
+    "n_subjects": 6,
+    "pearson_r_mean": 0.004903318027168524,
+    "pearson_r_std": 0.00678199798744145,
+    "spearman_r_mean": 0.0029863658925451293,
+    "spearman_r_std": 0.007240837534397895,
+    "n_pairs_per_subject": 129240
+  }
+}

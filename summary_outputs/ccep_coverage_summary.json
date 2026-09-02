@@ -1,0 +1,150 @@
+{
+  "summary_type": "ccep_validation_strengthening_package",
+  "created_utc": "2026-07-03T03:26:26.338221+00:00",
+  "same_subject_stimulation_data_available_in_project": false,
+  "same_subject_data_note": "No local file in the current project links the HCP resting-state fMRI subjects to individual stimulation-response recordings. The available CCEP data are aggregate F-TRACT summaries in the MNI-HCP-MMP1 parcellation.",
+  "interpretation_policy": "This package strengthens transparency and null-model control for the fixed post-exploratory CCEP comparison. It does not convert the weak aggregate F-TRACT correspondence into same-subject external validation or biological ground truth.",
+  "primary_observed": {
+    "metric": "amplitude",
+    "transform": "abs_ec_align_ccep",
+    "n_subjects": 6,
+    "mean_r": 0.032161962844569014,
+    "sd_r": 0.007024940976911071,
+    "min_r": 0.02203191704326341,
+    "max_r": 0.04000090647432546,
+    "per_subject_r": {
+      "106824": 0.02515673479768946,
+      "117021": 0.03438773603982108,
+      "123723": 0.03704972774497723,
+      "136631": 0.03434475496733743,
+      "151930": 0.04000090647432546,
+      "152225": 0.02203191704326341
+    },
+    "n_edges_used": 20807
+  },
+  "coverage": {
+    "amplitude": {
+      "shape": [
+        360,
+        360
+      ],
+      "total_directed_offdiagonal_edges": 129240,
+      "finite_directed_offdiagonal_edges": 20807,
+      "missing_directed_offdiagonal_edges": 108433,
+      "coverage_fraction": 0.16099504797276384,
+      "mean_covered_distance": 44.36770217243084,
+      "median_covered_distance": 42.15273878461971,
+      "distance_p025": 12.213090466402262,
+      "distance_p975": 88.22824959374248,
+      "finite_outgoing_regions": 350,
+      "finite_incoming_regions": 355
+    },
+    "probability": {
+      "shape": [
+        360,
+        360
+      ],
+      "total_directed_offdiagonal_edges": 129240,
+      "finite_directed_offdiagonal_edges": 51931,
+      "missing_directed_offdiagonal_edges": 77309,
+      "coverage_fraction": 0.40181832250077376,
+      "mean_covered_distance": 61.31018106608368,
+      "median_covered_distance": 59.579453346769945,
+      "distance_p025": 16.367361835647536,
+      "distance_p975": 113.88254054586405,
+      "finite_outgoing_regions": 356,
+      "finite_incoming_regions": 358
+    }
+  },
+  "null_controls": {
+    "edge_value_permutation": {
+      "n": 1000,
+      "mean": 0.0001485857000611638,
+      "sd": 0.004328156098052559,
+      "median": 5.047020893983803e-06,
+      "p025": -0.008257762728247612,
+      "p975": 0.008686030471884227,
+      "min": -0.012090841988693363,
+      "max": 0.014058880594812336,
+      "empirical_p_two_sided": 0.000999000999000999
+    },
+    "region_label_permutation": {
+      "n": 1000,
+      "mean": -0.0003309672128027035,
+      "sd": 0.004764297434628619,
+      "median": -0.0004697831121688974,
+      "p025": -0.009950225691225617,
+      "p975": 0.009274096450744498,
+      "min": -0.014581789378147768,
+      "max": 0.014120789649734766,
+      "empirical_p_two_sided": 0.000999000999000999
+    },
+    "distance_matched_edge_permutation": {
+      "n": 1000,
+      "mean": 0.0014802629800789238,
+      "sd": 0.004305803319764554,
+      "median": 0.0014764989387422663,
+      "p025": -0.006459193763192755,
+      "p975": 0.010028012692883314,
+      "min": -0.011374496062800952,
+      "max": 0.0152438229578773,
+      "empirical_p_two_sided": 0.000999000999000999
+    }
+  },
+  "distance_matching": {
+    "n_distance_bins": 10,
+    "binning_rule": "Equal-count quantile bins over finite amplitude CCEP directed off-diagonal edges",
+    "distance_source": "Euclidean distances were computed between parcel centroids derived from the local S1200 fs_LR midthickness surfaces. They are used only to construct distance-bin-matched null controls.",
+    "bin_counts": [
+      2081,
+      2081,
+      2081,
+      2081,
+      2081,
+      2081,
+      2081,
+      2080,
+      2080,
+      2080
+    ]
+  },
+  "n_permutations": 1000,
+  "random_seed": 20260703,
+  "subjects": [
+    "106824",
+    "117021",
+    "123723",
+    "136631",
+    "151930",
+    "152225"
+  ],
+  "ec_paths": {
+    "106824": "validation_results\\106824\\reproduce_0866_106824\\ec.npy",
+    "117021": "validation_results\\117021\\reproduce_0866_117021\\ec.npy",
+    "123723": "validation_results\\123723\\reproduce_0866_123723\\ec.npy",
+    "136631": "validation_results\\136631\\reproduce_0866_136631\\ec.npy",
+    "151930": "validation_results\\151930\\reproduce_0866_151930\\ec.npy",
+    "152225": "validation_results\\152225\\reproduce_0866_152225\\ec.npy"
+  },
+  "ccep_sources": {
+    "amplitude": "data-all\\CCEP(F-TRACT)\\MNI-HCP-MMP1\\amplitude__median.txt.gz",
+    "probability": "data-all\\CCEP(F-TRACT)\\MNI-HCP-MMP1\\probability.txt.gz"
+  },
+  "centroid_provenance": {
+    "dlabel": "data-all\\HCP_S1200_Atlas_Z4_pkXDZ\\Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR.dlabel.nii",
+    "left_surface": "data-all\\HCP_S1200_Atlas_Z4_pkXDZ\\S1200.L.midthickness_MSMAll.32k_fs_LR.surf.gii",
+    "right_surface": "data-all\\HCP_S1200_Atlas_Z4_pkXDZ\\S1200.R.midthickness_MSMAll.32k_fs_LR.surf.gii",
+    "label_order": "data-all\\CCEP(F-TRACT)\\MNI-HCP-MMP1\\MNI-HCP-MMP1.txt",
+    "coordinate_space_note": "Euclidean distances were computed between parcel centroids derived from the local S1200 fs_LR midthickness surfaces. They are used only to construct distance-bin-matched null controls.",
+    "min_vertices_per_parcel": "31",
+    "max_vertices_per_parcel": "839"
+  },
+  "outputs": {
+    "summary_json": "ccep_validation_strengthening_package\\ccep_validation_strengthening_summary.json",
+    "observed_csv": "ccep_validation_strengthening_package\\per_subject_observed_ccep.csv",
+    "null_distribution_csv": "ccep_validation_strengthening_package\\permutation_null_distributions.csv",
+    "coverage_figure": "ccep_validation_strengthening_package\\figures\\supp_ccep_coverage_strengthening.png",
+    "observed_vs_null_figure": "ccep_validation_strengthening_package\\figures\\supp_ccep_nulls_distance_matched.png",
+    "methods_note": "ccep_validation_strengthening_package\\CCEP_VALIDATION_STRENGTHENING_METHODS.md"
+  }
+}
