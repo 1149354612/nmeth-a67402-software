@@ -16,7 +16,7 @@ from pathlib import Path
 from statistics import mean, stdev
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PLAN = ROOT / "new25_paired_ablation_plan" / "new25_paired_ablation_plan.json"
 DEFAULT_OUTPUT_DIR = ROOT / "new25_paired_ablation_plan" / "summary"
 REFERENCE_CONFIG = "full_mgka_h60_fc05"

@@ -1,6 +1,6 @@
 {
   "started_utc": "2026-07-06T09:25:28.661339+00:00",
-  "status_path": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\batch_status.json",
+  "status_path": "<PROJECT_ROOT>\\new25_final_seed_robustness\\batch_status.json",
   "n_requested": 2,
   "n_completed": 2,
   "n_failed": 0,
@@ -11,14 +11,14 @@
       "seed": 20251212,
       "started_utc": "2026-07-06T09:25:28.662456+00:00",
       "expected_key_outputs": [
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\fc_r.txt",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\config.json",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\ec.npy",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\training_history.csv",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\training_summary.json"
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\fc_r.txt",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\config.json",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\ec.npy",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\training_history.csv",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251212\\training_summary.json"
       ],
-      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\batch_logs\\001_144933_seed20251212.stdout.log",
-      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\batch_logs\\001_144933_seed20251212.stderr.log",
+      "stdout_log": "<PROJECT_ROOT>\\new25_final_seed_robustness\\batch_logs\\001_144933_seed20251212.stdout.log",
+      "stderr_log": "<PROJECT_ROOT>\\new25_final_seed_robustness\\batch_logs\\001_144933_seed20251212.stderr.log",
       "skipped_existing_outputs": false,
       "returncode": 0,
       "elapsed_seconds": 6550.29,
@@ -31,14 +31,14 @@
       "seed": 20251213,
       "started_utc": "2026-07-06T11:14:38.964290+00:00",
       "expected_key_outputs": [
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\fc_r.txt",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\config.json",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\ec.npy",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\training_history.csv",
-        "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\training_summary.json"
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\fc_r.txt",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\config.json",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\ec.npy",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\training_history.csv",
+        "<PROJECT_ROOT>\\new25_final_seed_robustness\\144933\\new25_final_seed_robustness_mgka_h60_fc05_144933_s20251213\\training_summary.json"
       ],
-      "stdout_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\batch_logs\\002_144933_seed20251213.stdout.log",
-      "stderr_log": "D:\\deep-brain-stimulation-surgeries-digital-twin-system\\deep-brain-unity\\new25_final_seed_robustness\\batch_logs\\002_144933_seed20251213.stderr.log",
+      "stdout_log": "<PROJECT_ROOT>\\new25_final_seed_robustness\\batch_logs\\002_144933_seed20251213.stdout.log",
+      "stderr_log": "<PROJECT_ROOT>\\new25_final_seed_robustness\\batch_logs\\002_144933_seed20251213.stderr.log",
       "skipped_existing_outputs": false,
       "returncode": 0,
       "elapsed_seconds": 7615.49,

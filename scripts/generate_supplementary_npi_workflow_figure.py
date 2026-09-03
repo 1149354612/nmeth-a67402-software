@@ -22,7 +22,7 @@ from matplotlib import patches
 from matplotlib.colors import LinearSegmentedColormap
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 FIGURES = ROOT / "figures"
 OUT_PNG = FIGURES / "figure4_npi_workflow_publication.png"
 OUT_PDF = FIGURES / "figure4_npi_workflow_publication.pdf"

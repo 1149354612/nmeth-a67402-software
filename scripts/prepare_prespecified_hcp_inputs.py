@@ -20,10 +20,17 @@ import hashlib
 import json
 import os
 import subprocess
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from shutil import which
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT = SCRIPT_DIR.parent
+for import_root in (ROOT, SCRIPT_DIR):
+    if str(import_root) not in sys.path:
+        sys.path.insert(0, str(import_root))
 
 import numpy as np
 
@@ -39,10 +46,10 @@ from run_prespecified_hcp_evaluation import (
 )
 
 
-ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "NPI-main" / "NPI-main" / "real_fMRI_data"
 DOWNLOAD_ROOT = ROOT / "prespecified_hcp_downloads"
-WORKBENCH_FALLBACK = Path(r"D:\CONNECTOME\workbench\bin_windows64\wb_command.exe")
+WORKBENCH_ENV = os.environ.get("CONNECTOME_WORKBENCH")
+WORKBENCH_FALLBACK = Path(WORKBENCH_ENV) if WORKBENCH_ENV else None
 DEFAULT_MMP_DLABEL = (
     ROOT
     / "data-all"
@@ -73,7 +80,7 @@ def find_workbench() -> Path | None:
     path = which("wb_command")
     if path:
         return Path(path)
-    if WORKBENCH_FALLBACK.exists():
+    if WORKBENCH_FALLBACK is not None and WORKBENCH_FALLBACK.exists():
         return WORKBENCH_FALLBACK
     return None
 
