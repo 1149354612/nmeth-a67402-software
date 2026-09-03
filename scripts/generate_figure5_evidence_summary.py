@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 FIGURES_DIR = ROOT / "figures"
 OUT_PNG = FIGURES_DIR / "figure5_evidence_summary.png"
 OUT_PDF = FIGURES_DIR / "figure5_evidence_summary.pdf"

@@ -7,7 +7,12 @@ Resting-State fMRI`.
 
 ## Included
 
-- `scripts/`: selected analysis and figure-generation scripts.
+- `transformer_npi_causal.py`: the author-owned Transformer/MGKA model and
+  effective-connectivity implementation used by the training entry point.
+- `scripts/core/run_transformer_param.py`: the author-owned parameterized
+  training, FC evaluation, and virtual-perturbation entry point.
+- `scripts/`: reviewer-facing input-preparation, evaluation, diagnostic,
+  ablation, and figure-generation scripts.
 - `summary_outputs/`: non-identifying summary outputs used in the manuscript.
 - `provenance_json/`: per-subject provenance records for the traceable HCP-YA batch.
 - `subject_lists/`: fixed subject lists used by the reported analyses.
@@ -26,11 +31,14 @@ The demo data are simulated and exist only to verify execution.
 ## System requirements
 
 - Operating system: Windows 11 or Ubuntu 22.04
-- Demo verified on Windows 11 with Python 3.13.5
-- Full analysis environment specification is provided for Python 3.11
+- Canonical full-analysis environment: Python 3.11, as specified in `environment.yml`
+- The simulated demo was smoke-tested on Windows 11 with Python 3.13.5 using a
+  locally available compatible dependency set; this does not constitute
+  full-analysis validation on Python 3.13.5
 - Core demo dependencies: `numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`
 - Full analysis dependencies: PyTorch 2.0 series, `scikit-learn`, `nibabel`, `nilearn`,
-  `tqdm`, `h5py`, `pyyaml`, `joblib`, `click`, `rich`, `loguru`, `omegaconf`
+  `tqdm`, `h5py`, `pyyaml`, `joblib`, `click`, `rich`, `loguru`, `omegaconf`,
+  and `botocore` for the optional signed HCP S3 download route
 - Connectome Workbench 2.1.0 is required for the HCP input-preparation scripts
 - No non-standard hardware is required for the simulated demo
 - GPU hardware is recommended for the full model scripts
@@ -81,8 +89,14 @@ matching per-subject provenance JSON files:
 - `scripts/run_new25_paired_ablation_batch.py`
 - `scripts/summarize_new25_paired_ablation.py`
 
-For the current reviewer package, use `RUNBOOK_REPRODUCE_RESULTS.md` to inspect
-the reported values and evidence boundaries.
+The source-derived subject-level arrays are not included in this reviewer
+package and must be obtained and used under the applicable HCP data-use terms.
+The core model and training entry point are included for code inspection and
+for selected reruns when lawful inputs are available. For the current reviewer
+package, use `RUNBOOK_REPRODUCE_RESULTS.md` to inspect the reported values and
+evidence boundaries. The package does not claim that a clean machine can
+retrain every manuscript result without restricted source data, checkpoints,
+and the original external resources.
 
 ## Data restrictions
 

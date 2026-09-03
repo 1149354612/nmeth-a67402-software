@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SUMMARY_DIR = ROOT / "new25_paired_ablation_plan" / "summary"
 DEFAULT_OUTPUT_PNG = ROOT / "figures" / "figure3_new25_paired_ablation.png"
 DEFAULT_OUTPUT_PDF = ROOT / "figures" / "figure3_new25_paired_ablation.pdf"

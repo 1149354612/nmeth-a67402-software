@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SUBJECTS = ["106824", "117021", "123723", "136631", "151930", "152225"]
 OUT_PNG = ROOT / "figures" / "figure2_heldout_model_analysis_reproduce0866.png"
 OUT_PDF = ROOT / "figures" / "figure2_heldout_model_analysis_reproduce0866.pdf"

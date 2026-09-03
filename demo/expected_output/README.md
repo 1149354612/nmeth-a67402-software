@@ -9,4 +9,6 @@ These files are the checked-in reference outputs produced by
 - `demo_fc_preview.png`
 
 The reference output is simulated and is used only for execution checking.
-
+The `input_path` field in `demo_summary.json` is expected to be the
+package-relative path produced when the documented command is run from the
+package root; it is not a scientific result.

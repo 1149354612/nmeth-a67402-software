@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PLAN = ROOT / "new25_paired_ablation_plan" / "new25_paired_ablation_plan.json"
 DEFAULT_STATUS = ROOT / "new25_paired_ablation_plan" / "batch_status.json"
 

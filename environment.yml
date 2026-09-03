@@ -22,3 +22,4 @@ dependencies:
       - rich==13.7.1
       - loguru==0.7.2
       - omegaconf==2.3.0
+      - botocore==1.34.162

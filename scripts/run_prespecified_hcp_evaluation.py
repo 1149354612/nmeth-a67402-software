@@ -21,12 +21,17 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT = SCRIPT_DIR.parent
+for import_root in (ROOT, SCRIPT_DIR):
+    if str(import_root) not in sys.path:
+        sys.path.insert(0, str(import_root))
+
 import numpy as np
 
 import run_reproduce0866_training_diagnostics as heldout_diag
 
 
-ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "NPI-main" / "NPI-main" / "real_fMRI_data"
 DEFAULT_PROVENANCE_DIR = ROOT / "prespecified_hcp_provenance"
 DEFAULT_OUTPUT_BASE = ROOT / "prespecified_hcp_evaluation"

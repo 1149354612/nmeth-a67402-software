@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 TRAIN_SCRIPT = ROOT / "scripts" / "core" / "run_transformer_param.py"
 DEFAULT_SUMMARY = ROOT / "prespecified_hcp_evaluation_new25_full_20260702" / "new25_full_summary_20260703.json"
 DEFAULT_DATA_DIR = ROOT / "prespecified_hcp_360_inputs"

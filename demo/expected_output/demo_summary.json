@@ -1,7 +1,7 @@
 {
   "global_mean": 6.055569412166261e-11,
   "global_std": 0.999999999640293,
-  "input_path": "reviewer_reproducibility_package_nature_methods_20260902\\demo_data\\demo_simulated_360_timeseries.npy",
+  "input_path": "demo_data\\demo_simulated_360_timeseries.npy",
   "mean_absolute_offdiag_correlation": 0.208959141186511,
   "n_regions": 360,
   "n_timepoints": 240,
